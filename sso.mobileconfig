@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+      <key>PayloadContent</key>
+      <array>
+        <dict>
+          <key>PayloadDisplayName</key>
+             <string>SSO Settings</string>
+          <key>PayloadType</key>
+             <string>com.apple.sso</string>
+          <key>PayloadVersion</key>
+             <integer>1</integer>
+          <key>PayloadUUID</key>
+             <string>9F7C78AC-41F6-4474-8608-1EC41B6551B1</string>
+          <key>PayloadIdentifier</key>
+             <string>analytics.spotfire.sso</string>
+          <key>Name</key>
+             <string>GSLAB IPAD SSO</string>
+          <key>Kerberos</key>
+             <dict>
+                  <key>PrincipalName</key>
+                   <string>test_user</string>
+                <key>Realm</key>
+                   <string>GSLAB.LOCAL</string>
+                <key>URLPrefixMatches</key>
+                  <array>
+                      <string>https://kerbenabledapp.mycompany.com</string>
+                      <string>http://nonstandardapp.mycompany.com:16089</string>
+                  </array>
+               <key>AppIdentifierMatches</key>
+                  <array>
+                    <string>com.apple.mobilesafari</string>
+                      <string>com.tibco.spotfire.SpotfireForIPad</string>
+                  </array>
+             </dict>
+        </dict>
+      </array>
+      <key>PayloadDisplayName</key>
+         <string>KerberosConfigProfile</string>
+      <key>PayloadIdentifier</key>
+         <string>local.TEST.ssoconfig</string>
+      <key>PayloadOrganization</key>
+         <string>ORGANIZATION</string>
+      <key>PayloadRemovalDisallowed</key>
+         <true/>
+      <key>PayloadType</key>
+         <string>Configuration</string>
+      <key>PayloadUUID</key>
+         <string>8C7EFCB0-B8C4-40EE-B3F6-CA1A8FZ83I457</string>
+      <key>PayloadVersion</key>
+         <integer>1</integer>
+    </dict>
+    </plist>
